@@ -1,0 +1,11 @@
+.main-headings {
+  padding-top: 70px;
+}
+
+.home-section {
+  background: url(./images/bg3.jpg);
+  /* background: url(./images/bg2.jpg); */
+  /* background: url(./images/bg1.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
