@@ -5,14 +5,14 @@
 .home-section {
   background: url(./images/bg3.jpg);
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
 }
 
 .grey-bar {
   width: 60px;
   height: 16px;
   border-bottom: 2px solid #d3d3d3;
-  margin: 0px auto 20px;
+  margin: 0 auto 20px;
 }
 
 .main-headings,
@@ -85,7 +85,6 @@
 
 .event:nth-child(1) {
   background-image: url(./images/trip1.jpg);
-  
 }
 
 .event:nth-child(2) {
@@ -144,7 +143,7 @@
   color: #000;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px) {
   /* For Mobile phone */
 
   .partners-section,
@@ -155,8 +154,7 @@
   .events {
     flex-direction: column;
   }
-
-}  
+}
 
 @media not screen and (max-width: 767px) {
   /* For Desktop */
@@ -169,4 +167,4 @@
   .events {
     flex-direction: row;
   }
-}  
+}
