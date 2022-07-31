@@ -273,16 +273,9 @@ a {
     padding: 64px 0;
   }
 
-  #featured-speakers-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 1024px;
-    margin: auto;
-  }
-
   #featured-speakers-list > li {
-    width: 320px;
     gap: 10px;
+    flex: 30%;
   }
 
   #featured-speakers-list > li > div > p {
@@ -322,12 +315,7 @@ a {
   }
 
   .aside-icon {
-    /* color: rgb(247, 247, 247); */
     padding-top: 5px;
-
-    /* position: absolute; */
-
-    /* top: -1%; */
   }
 
   .desktop-menu {
@@ -355,7 +343,6 @@ a {
   }
 
   .Dmain-nav {
-    /* width: calc(100% - 130px); */
     height: 80px;
     float: right;
     color: #000;
@@ -403,7 +390,12 @@ a {
     align-items: center;
   }
 
+  .prog-items:hover {
+    border: 3px solid white;
+  }
+
   .prog-items img {
+    transform: scale(0.5);
     width: 60%;
     height: unset;
   }
@@ -465,15 +457,13 @@ a {
   }
 
   #featured-speakers-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    max-width: 688px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
   }
 
   #featured-speakers-list > li {
-    width: 488px;
     gap: 10px;
+    flex: 100%;
   }
 
   #featured-speakers-list > li > div > p {
