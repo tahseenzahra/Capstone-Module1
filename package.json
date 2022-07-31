@@ -1,0 +1,31 @@
+{
+  "name": "Capstone-Module1",
+  "version": "1.0.0",
+  "description": "This project is created as the final project for Module 1 of microverse and is based on the website for Airways that is imagination based company that is encourging tourism.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahseenzahra/Capstone-Module1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahseenzahra/Capstone-Module1/issues"
+  },
+  "homepage": "https://github.com/tahseenzahra/Capstone-Module1#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

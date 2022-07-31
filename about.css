@@ -1,0 +1,170 @@
+.main-headings {
+  padding-top: 70px;
+}
+
+.home-section {
+  background: url(./images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grey-bar {
+  width: 60px;
+  height: 16px;
+  border-bottom: 2px solid #d3d3d3;
+  margin: 0 auto 20px;
+}
+
+.main-headings,
+.homepg-para {
+  text-align: center;
+}
+
+.description-para,
+.aboutpg-para {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.aboutpg-para {
+  padding-top: 25px;
+}
+
+.airways-club {
+  color: #272a31;
+  width: 70%;
+  margin: 30px auto 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-club {
+  align-self: center;
+  height: 70px;
+  margin: 0;
+  padding: 15px 30px;
+  border: 1px solid #d3d3d3;
+  margin-top: 30px;
+}
+
+.past-events {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 85%;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 33px 0 40px 0;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  background-position: center;
+  background-blend-mode: multiply;
+  flex-flow: column;
+  flex-basis: 210px;
+  flex-grow: 1;
+  text-align: center;
+  color: #fafafa;
+  padding: 80px 0;
+  gap: 20px;
+  max-height: 100px;
+  background-size: cover;
+  background-color: #ec5242;
+}
+
+.event:nth-child(1) {
+  background-image: url(./images/trip1.jpg);
+}
+
+.event:nth-child(2) {
+  background-image: url(./images/trip2.jpg);
+}
+
+.partners-section {
+  background-color: #3f444f;
+  padding: 10% 0;
+}
+
+.partners-flex {
+  width: 90%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.partners-list {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.partner-img {
+  width: 125px;
+  height: 40px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(311deg) brightness(102%) contrast(105%);
+}
+
+.footer-rights {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding: 5% 0;
+}
+
+.footer-logo a {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.copy-rights {
+  font-size: 1rem;
+  margin: 25px;
+  color: #000;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile phone */
+
+  .partners-section,
+  .footer-rights {
+    display: block;
+  }
+
+  .events {
+    flex-direction: column;
+  }
+}
+
+@media not screen and (max-width: 767px) {
+  /* For Desktop */
+
+  .partners-section,
+  #hamburger-icon {
+    display: none;
+  }
+
+  .events {
+    flex-direction: row;
+  }
+}
