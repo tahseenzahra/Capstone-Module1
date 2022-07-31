@@ -22,11 +22,11 @@ Airways - An airline that encourges toursim throughout the globe and connects th
 
 ## Video Presentation
 
-[Click here to view](not available)
+[Click here to view](https://www.loom.com/share/94383c5804014553abf4eab55c32c1b4)
 
 ## Live Demo
 
-[Click here to view](not available)
+[Click here to view](https://tahseenzahra.github.io/Capstone-Module1/)
 
 ## Getting Started
 

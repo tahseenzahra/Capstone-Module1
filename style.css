@@ -314,7 +314,6 @@ a {
     display: flex;
     flex-direction: row;
     padding: 9px;
-    padding-left: 100%;
     font-weight: 400;
     font-size: 14px;
     gap: 10px;
