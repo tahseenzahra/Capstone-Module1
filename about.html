@@ -4,29 +4,137 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="about.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="about.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/png" href="./images/favicon.png">
+
   <title>Capstone-Module1</title>
 </head>
 <body>
+
+  <!-- Mobile menu Popup-->
+
+  <div class="menu-popup menu-close visible" id="mob-menu">
+    <i class="fas fa-times x-icon" id="x-iconid"></i>
+    <div class="menu-popup-links grey-txt" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="#">Program</a>
+      <a href="#">Join</a>
+      <a href="#">Sponsor</a>
+      <a href="#">News</a>
+    </div>
+  </div>
+
+  <!-- Main Section -->
+
+  <!-- below tags just appears in desktop -->
+        
+  <aside class="aside-section">
+    <div class="top-elements">
+        <i class="fa-brands fa-facebook-f aside-icon"></i>
+        <i class="fa-brands fa-twitter aside-icon"></i>
+        <a href="#">English</a>
+        <a href="#">My Page</a>
+        <a href="#">Logout</a>
+    </div>
+</aside>
+<div class="desktop-menu">
+    <div class="main-Dmenu">
+        <div class="Dmain-logo">
+            <a href="index.html">
+                <img src="./images/shaheen.png" alt="">
+            </a>
+        </div>
+        <nav class="Dmain-nav">
+            <a href="about.html">About</a>
+            <a href="#">Program</a>
+            <a href="#">Join</a>
+            <a href="#">Sponsor</a>
+            <a href="#">News</a>
+            <a href="#" class="Dlive">Airways</a>
+        </nav>
+    </div>
+</div>
+
+<!-- above tags just appears in desktop -->
+
   <section class="home-section">
-    <i class="fa-solid fa-bars hamburger"></i>  
+    <i class="fa-solid fa-bars hamburger" id="hamburger-icon"></i>  
     <div class="main-headings">
-        <h3 class="grey-txt">"Hello! Sky flyers"</h3>
-        <h1 class="img-in-txt">Airways Travels and Tourism Services</h1>
+        <h3 class="grey-txt">"TRAVEL SUPPORT"</h3>
+        <h1 class="img-in-txt">Plan your travel with confidence</h1>
+        <div class="grey-bar"></div>
     </div>
-    <div class="red-bar"></div>
     <div class="homepg-para">
-        <p class="description-para">Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>
-        <p class="discount-timing grey-txt"><b>Discount package is available on Friday and Sunday</b></p>
-        <p>Do you have any other questions about CC Global Summit 2015?    ccsummit2015@cckorea.org</p>
+        <p class="description-para">Airways connects the world to, and through, our global hub in Lahore. We operate modern, efficient and comfortable aircraft, and our culturally diverse workforce delivers award-winning services to our customers across six continents every day.</p>
+        <p class="orange-txt aboutpg-para">Do you have any other questions about Airways? We are always there to assist you just leave your quries. <br> <a href="mailto:airways@airline.org"><b>mailto:airways@airline.org</b></a></p>
     </div>
+  </section>
+
+<!-- Airways Club -->
+
+<section class="airways-club">
+  <h2 class="section-heading">Airways Club</h2>
+  <div class="red-bar"></div>
+  <p>For better assistence and to make your trip more enthusiastic join our Airways Club where we give the brief description of your journey along with us. <b>The sessions are delivered on every Saturday.</b></p>
+  <img class="logo-club" src="./images/shaheen.png" alt="logo">
 </section>
 
+<!-- past events -->
+
+<section class="past-events">
+  <h2 class="section-heading">View the Past Exerience</h2>
+  <div class="red-bar"></div>
+  <p>Take a look at the reviews of last two trips that were organized by the Airways.</p>
+  <div class="events">
+    <div class="event">
+      <h2>2021</h2>
+      <h3>Trip organized through out the globe</h3>
+    </div>
+    <div class="event">
+      <h2>2020</h2>
+      <h3>Trip organized towards hill stations in the world</h3>
+    </div>
+  </div>
+</section>
+
+<!-- Partners -->
+
+<section class="partners-section">
+  <h2 class="section-heading grey-txt">Partners</h2>
+  <div class="red-bar"></div>
+  <div class="partners-flex">
+    <div class="partners-list">
+      <img class="partner-img" src="./images/partner1.png" alt="logo">
+      <img class="partner-img" src="./images/partner2.png" alt="logo">
+      <img class="partner-img" src="./images/partner3.png" alt="logo">
+      <img class="partner-img" src="./images/partner4.png" alt="logo">
+      <img class="partner-img" src="./images/partner5.png" alt="logo">
+    </div>
+  </div>
+</section>
+
+<!-- Footer Reserved Rights -->
+
+<footer class="footer-rights">
+<div class="footer-logo">
+  <a href="#">
+    <img src="./images/shaheen.png" alt="logo">
+    AIRWAYS
+  </a>
+</div>
+<p class="copy-rights">
+  Airways Traveling Agency <br>
+  All Rights Reserved
+</p>
+</footer>
+
 <!-- JS scripts -->
+
+<script src="./script.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>

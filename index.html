@@ -8,70 +8,116 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <title>Capstone-Module1</title>
+<link rel="icon" type="image/png" href="./images/favicon.png">
+
+<title>Capstone-Module1</title>
 </head>
 <body>
+
+    <!-- Mobile menu Popup-->
+
+    <div class="menu-popup" id="mob-menu">
+      <i class="fas fa-times x-icon" id="x-iconid"></i>
+      <div class="menu-popup-links grey-txt" id="navLinks">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Program</a>
+        <a href="#">Join</a>
+        <a href="#">Sponsor</a>
+        <a href="#">News</a>
+      </div>
+    </div>
 
 <!-- Main page Section -->
 
     <header>
+        <!-- below tags just appears in desktop -->
+
+        <aside class="aside-section">
+            <div class="top-elements">
+                <i class="fa-brands fa-facebook-f aside-icon"></i>
+                <i class="fa-brands fa-twitter aside-icon"></i>
+                <a href="#">English</a>
+                <a href="#">My Page</a>
+                <a href="#">Logout</a>
+            </div>
+        </aside>
+        <div class="desktop-menu">
+            <div class="main-Dmenu">
+                <div class="Dmain-logo">
+                    <a href="index.html">
+                        <img src="./images/shaheen.png" alt="">
+                    </a>
+                </div>
+                <nav class="Dmain-nav">
+                    <a href="about.html">About</a>
+                    <a href="#">Program</a>
+                    <a href="#">Join</a>
+                    <a href="#">Sponsor</a>
+                    <a href="#">News</a>
+                    <a href="#" class="Dlive">Airways</a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- above tags just appears in desktop -->
         <div class="fst-header-container">
             <div class="fst-Headerimg">
-                <i class="fa-solid fa-bars hamburger"></i>  
+                <i class="fa-solid fa-bars hamburger" id="hamburger-icon"></i>  
             </div>
         </div>
     </header>
     <section class="home-section">
-        <div class="main-headings">
-            <h3 class="grey-txt">"Hello! Sky flyers"</h3>
-            <h1 class="img-in-txt">Airways Travels and Tourism Services</h1>
-        </div>
-        <div class="homepg-para">
-            <p class="description-para">Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>
-            <p class="discount-timing grey-txt"><b>Discount package is available on Friday and Sunday</b></p>
-            <p>@ International airport of Lahore, Pakistan</p>
-        </div>
+            <div class="main-headings homei1">
+                <h3 class="grey-txt">"Hello! Sky flyers"</h3>
+                <h1 class="img-in-txt">Airways Travels and Tourism Services</h1>
+            </div>
+            <div class="homepg-para homei2">
+                <p class="description-para">Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>
+                <p class="discount-timing grey-txt"><b>Discount package is available on Friday and Sunday</b></p>
+                <p class="orange-txt">@ International airport of Lahore, Pakistan</p>
+            </div>
     </section>
 
 <!-- Main program Section -->
+    <main>
+        <section class="mainProgram">
+            <h2 class="section-heading grey-txt">Main Program</h2>
+            <div class="red-bar"></div>
+            <div class=" main-prog-items">
+                <div class="prog-items">
+                    <img src="./images/program1.png" alt="icon">
+                    <h2>Training</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./images/program2.png" alt="icon">
+                    <h2>Training</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./images/program3.png" alt="icon">
+                    <h2>Training</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./images/program4.png" alt="icon">
+                    <h2>Training</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <div class="prog-items">
+                    <img src="./images/program5.png" alt="icon">
+                    <h2>Training</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, velit?</p>     
+                </div>
+                <button type="submit" class="register-btn">Register Now</button>
+            </div>
+            <a href="#" id="whole-program">See The Whole Program</a>
+        </section>
 
-    <section class="mainProgram">
-        <h2 class="section-heading grey-txt">Main Program</h2>
-        <div class="red-bar"></div>
-        <div class=" main-prog-items">
-            <div class="prog-items">
-                <img src="./images/program1.png" alt="icon">
-                <h2>Training</h2>
-                <p>Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>     
-            </div>
-            <div class="prog-items">
-                <img src="./images/program2.png" alt="icon">
-                <h2>Training</h2>
-                <p>Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>     
-            </div>
-            <div class="prog-items">
-                <img src="./images/program3.png" alt="icon">
-                <h2>Training</h2>
-                <p>Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>     
-            </div>
-            <div class="prog-items">
-                <img src="./images/program4.png" alt="icon">
-                <h2>Training</h2>
-                <p>Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>     
-            </div>
-            <div class="prog-items">
-                <img src="./images/program5.png" alt="icon">
-                <h2>Training</h2>
-                <p>Enjoy Exclusive Fares and Take Full Control of Your Journey at <a href="#">Airways.com</a> Book now Special Online Fares with <b>Airways</b>. We provide great packages for domestic as well as international tourism, as we believe energy of soul lies in tourism therefore we are here to make it comfortable for you.</p>     
-            </div>
-            <button type="submit" class="register-btn">Register Now</button>
-        </div>
-        
-    </section>
+        <!-- Featured Staff Section -->
 
-<!-- Featured Staff Section -->
-
-    <section class="staffFeatures">
+        <!-- <section class="staffFeatures">
         <h2 class="section-heading">Featured Staff</h2>
         <div class="red-bar"></div>
         <div class="people">
@@ -142,9 +188,43 @@
                 </div>
             </div>
         </div>
-    </section>
+        </section> -->
+
+        <!-- Section from about pg to display in desktop -->
+
+
+        <section class="partners-section" id="partner">
+        <h2 class="section-heading grey-txt">Partners</h2>
+        <div class="red-bar"></div>
+        <div class="partners-flex">
+        <div class="partners-list">
+            <img class="partner-img" src="./images/partner1.png" alt="logo">
+            <img class="partner-img" src="./images/partner2.png" alt="logo">
+            <img class="partner-img" src="./images/partner3.png" alt="logo">
+            <img class="partner-img" src="./images/partner4.png" alt="logo">
+            <img class="partner-img" src="./images/partner5.png" alt="logo">
+        </div>
+        </div>
+        </section>
+    </main>
+  <!-- Footer Reserved Rights -->
+  
+    <footer class="footer-rights">
+  <div class="footer-logo">
+    <a href="#">
+      <img src="./images/shaheen.png" alt="logo">
+      AIRWAYS
+    </a>
+  </div>
+  <p class="copy-rights">
+    Airways Traveling Agency <br>
+    All Rights Reserved
+  </p>
+    </footer>
 
 <!-- JS scripts -->
+
+<script src="./script.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>

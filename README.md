@@ -3,13 +3,30 @@ This project is created as the final project for Module 1 of microverse and is b
 
 ## Built With
 
-- HTML
-- CSS
-- JS
+- Web Development
+- HTML5, CSS3, JS
+
+## Project Name
+
+Airways - An airline that encourges toursim throughout the globe and connects the people.
+
+## Workflow screen
+
+- Desktop View of home page
+
+![screenshot](./images/capstone-Desktop.png)
+
+- Mobile view of About page
+
+![screenshot](./images/capstone-Mobile.png)
+
+## Video Presentation
+
+[Click here to view](not available)
 
 ## Live Demo
 
-[Live Link](not available)
+[Click here to view](not available)
 
 ## Getting Started
 
@@ -26,6 +43,14 @@ View the file through the source code.
 - GitHub: [@tahseenzahra](https://github.com/tahseenzahra)
 - Twitter: [@tahseen1zahra](https://twitter.com/tahseen1zahra)
 - LinkedIn: [@tahseenzahra](https://www.linkedin.com/in/tahseenzahra/)
+
+## Acknowledgements
+
+[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) whose design template was used is used for this project.
+
+Backgroung pictures are taken from Unsplash
+
+Logo is taken from [Abbas Siddiqi](https://abbassiddiqi.com/)
 
 ## 🤝 Contributing
 
