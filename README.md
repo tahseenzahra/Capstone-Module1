@@ -22,7 +22,7 @@ Airways - An airline that encourges toursim throughout the globe and connects th
 
 ## Video Presentation
 
-[Click here to view](https://www.loom.com/share/94383c5804014553abf4eab55c32c1b4)
+[Click here to view](not available)
 
 ## Live Demo
 
