@@ -1,4 +1,6 @@
 # Capstone-Module1
+Airways website build with technologies of HTML5, CSS3 and JS.
+
 This project is created as the final project for Module 1 of microverse and is based on the website for Airways that is imagination based company that is encourging tourism.
 
 ## Built With
